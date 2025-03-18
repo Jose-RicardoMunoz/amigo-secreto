@@ -46,3 +46,17 @@ function agregarAmigo() {
     actualizarLista(); // Mostrar los nombres en pantalla
 }
 
+// Implementar Función para sortear amigo aleatorio:
+function sortearAmigo() {
+    if (amigos.length === 0) {
+        alert("La lista está vacía. Agrega al menos un nombre.");
+        return;
+    }
+
+    let indiceAleatorio = Math.floor(Math.random() * amigos.length);
+    let amigoSorteado = amigos[indiceAleatorio];
+
+    let resultado = document.getElementById("resultado");
+    resultado.innerHTML = `<p> 🥳 El amigo secreto es: <strong>${amigoSorteado}</strong> 🥳</p>`;
+}
+
