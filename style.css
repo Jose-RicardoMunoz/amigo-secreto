@@ -126,20 +126,38 @@ button {
 }
 
 /* Listas */
+
+/* Mejoramos la lista de nombres */
 ul {
-    list-style-type: none;
-    color: var(--color-text);
+    list-style: none;  /* Eliminar los marcadores de lista */
+    padding: 0;  /* Eliminar el espacio extra a la izquierda */
+    margin: 20px 0;
     font-family: "Inter", sans-serif;
     font-size: 18px;
-    margin: 20px 0;
 }
-
+/* Estilo individual de cada nombre en la lista */
+.name-list li {
+    font-size: 18px;
+    padding: 8px;
+    border-bottom: 1px solid var(--color-tertiary);
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+/* Mejora en el diseño del resultado sorteado */
 .result-list {
     margin-top: 15px;
-    color: #05DF05;
     font-size: 22px;
     font-weight: bold;
     text-align: center;
+}
+
+/* Resaltar el resultado del sorteo */
+.result-list p {
+    background-color: var(--color-primary);  /* Fondo azul */
+    color: var(--color-white);  /* Texto blanco */
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block; /* Evita que el fondo ocupe toda la línea */
 }
 
 /* Botón de sortear título */
