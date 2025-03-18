@@ -21,7 +21,7 @@
 
 ✅ JavaScript (ES6) - Lógica del sorteo y manipulación del DOM
 
-📸 Captura de pantalla
+📸 Captura de pantalla:
 
 ![image](https://github.com/user-attachments/assets/e8e5c7f4-870d-4b89-96ae-64aa7a5960e5)
 
